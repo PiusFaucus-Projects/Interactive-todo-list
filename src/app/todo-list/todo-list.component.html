@@ -1,6 +1,8 @@
 <app-todo-add>
-  (create)="createTodo(&event)"
+  (create)="createTodo(&event)">
 </app-todo-add>
+
+
 <div class="todos">
   <app-todo *ngFor="let todo of todos"
     [todo]="todo"
