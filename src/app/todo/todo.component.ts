@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {Input} from '@angular/core';
-import {Output, Even}
+import {Output, EvenEmitter} from @a
 
 @Component({
   selector: 'app-todo',
