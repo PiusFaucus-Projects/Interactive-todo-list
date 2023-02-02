@@ -15,7 +15,7 @@ import { TodoAddComponent } from './todo-add/todo-add.component';
     TodoAddComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
     FormsModule
   ],
   providers: [],
