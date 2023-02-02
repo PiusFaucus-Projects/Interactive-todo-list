@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import {Output, EventEmitter} from '@angular/core';
-
+import { Output, EventEmitter } from '@angular/core';
+ 
 @Component({
   selector: 'app-todo-add',
   templateUrl: './todo-add.component.html',
@@ -8,12 +8,12 @@ import {Output, EventEmitter} from '@angular/core';
 })
 export class TodoAddComponent implements OnInit {
   @Output() create = new EventEmitter();
-  
+ 
   newTodo = '';
-
+ 
   constructor() { }
-
+ 
   ngOnInit() {
   }
-
+ 
 }
