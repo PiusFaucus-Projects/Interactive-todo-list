@@ -1,4 +1,5 @@
 import {Component, OnInit} from '@angular/core';
+import
 import * as uuid from 'uuid';
 
 import {TODOS} from '../todos';
