@@ -16,4 +16,6 @@ export class TodoComponent implements OnInit {
   ngOnInit() {
   }
 
+  onDeleteClick
+
 }
