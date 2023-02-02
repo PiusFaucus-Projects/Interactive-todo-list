@@ -1,6 +1,6 @@
 import {BrowserModule} from '@angular/platform-browser';
 import {NgModule} from '@angular/core';
-import {FormsModule}
+import {FormsModule} from '@'
 
 import {AppComponent} from './app.component';
 import {TodoListComponent} from './todo-list/todo-list.component';
