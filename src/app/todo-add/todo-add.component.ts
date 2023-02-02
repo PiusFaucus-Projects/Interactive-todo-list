@@ -7,7 +7,7 @@ import {Output, EventEmitter} from '@angular/core';
   styleUrls: ['./todo-add.component.css']
 })
 export class TodoAddComponent implements OnInit {
-  @Output() create
+  @Output() create = new EventEmitter();
   newTodo = '';
 
   constructor() { }
