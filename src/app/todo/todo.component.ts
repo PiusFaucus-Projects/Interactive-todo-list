@@ -17,7 +17,7 @@ export class TodoComponent implements OnInit {
   }
 
   onDeleteClick(){
-    this,
+    this.delete.emit(this.)
   }
 
 }
