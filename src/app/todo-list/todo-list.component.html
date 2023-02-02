@@ -1,3 +1,5 @@
-<div class="todo-item">
-  <span>{{todo.name}}</span>
+<div class="todos">
+  <div class="todo-item" *ngFor="let todo of todos">
+    <span>{{todo.name}}</span>
+  </div>
 </div>

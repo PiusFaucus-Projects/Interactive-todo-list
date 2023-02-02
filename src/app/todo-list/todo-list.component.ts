@@ -10,7 +10,7 @@ import {TODOS} from '../todos';
   styleUrls: ['./todo-list.component.css']
 })
 export class TodoListComponent implements OnInit {
-  @Input() todo;
+  @Input()
 
   constructor() {
   }
